@@ -1,0 +1,10 @@
+G:\Projects\Bots\SampleBot\BBChatBot.Repository\bin\Release\BBChatBot.Repository.dll.config
+G:\Projects\Bots\SampleBot\BBChatBot.Repository\bin\Release\BBChatBot.Repository.dll
+G:\Projects\Bots\SampleBot\BBChatBot.Repository\bin\Release\BBChatBot.Repository.pdb
+G:\Projects\Bots\SampleBot\BBChatBot.Repository\bin\Release\EntityFramework.dll
+G:\Projects\Bots\SampleBot\BBChatBot.Repository\bin\Release\EntityFramework.SqlServer.dll
+G:\Projects\Bots\SampleBot\BBChatBot.Repository\bin\Release\EntityFramework.xml
+G:\Projects\Bots\SampleBot\BBChatBot.Repository\bin\Release\EntityFramework.SqlServer.xml
+G:\Projects\Bots\SampleBot\BBChatBot.Repository\obj\Release\BBChatBot.Repository.csprojResolveAssemblyReference.cache
+G:\Projects\Bots\SampleBot\BBChatBot.Repository\obj\Release\BBChatBot.Repository.dll
+G:\Projects\Bots\SampleBot\BBChatBot.Repository\obj\Release\BBChatBot.Repository.pdb

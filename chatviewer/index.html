@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat Viewer</title>
+    <link rel="stylesheet" href="css/base.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="">
+    <div class="content">
+        <ul class="conv-list" id="conv_list"></ul>
+        <ul class="chat-window" id="chat_window"></ul>
+    </div>
+    <script type="text/template" id="convListTemplate">
+    <% _.forEach(conversations, function(conv) {%>
+        <li>
+            <a href="javascript:void(0)" data-conv="<%- conv.conversationid %>" data-date="<%- conv.date %>">
+                <span class="username"><%- conv.userid %></span>
+                <span class="date"><%- moment(conv.date+ "+00:00").fromNow() %></span>
+            </a>
+        </li>
+    <% }) %>
+    </script>
+    <script type="text/template" id="chatWindowTemplate">
+        <li><h3>Conversation with <%- messages[0].userid %> on <%- moment(messages[messages.length-1].createddt+"+00:00").format('llll') %></h3></li>
+    <% _.forEach(messages, function(msg) { %>
+        <li>
+            <span class="username">👤 </span>
+            <span class="msg"><b class="top-arrow"><%= msg.userinput.replace('\n', '<br />') %></b><i class="linkable" data-link="<%= msg.conversationid + '.' + msg.id %>" title="click to copy link"></i></span>
+            <span class="date" title="msg.createddt"><%- moment(msg.createddt+"+00:00").fromNow() %></span>
+        </li>
+        <li class="bot">
+            <span class="username">&#129302;</span>
+            <span class="msg"><b class="top-arrow" title="click to copy link"><%= msg.botoutput.replace('\n', '<br />') %></b><i class="linkable" data-link="<%= msg.conversationid + '.' + msg.id %>"></i></span>
+            <span class="date" title="msg.createddt"><%- moment(msg.createddt+"+00:00").fromNow() %></span>
+        </li>
+    <% }) %>
+    </script>
+    <script type="text/javascript" src="js/jquery3.min.js"></script>
+    <script type="text/javascript" src="js/lodash.min.js"></script>
+    <script type="text/javascript" src="js/moment.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <input type="text" id="clipboard_helper" />
+    <div class="notification">Link copied to clipboard</div>
+  </body>
+</html>
