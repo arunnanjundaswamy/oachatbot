@@ -38,3 +38,12 @@ E:\ARUN\Projects\Bots\OAChatBot\BBChatBot.Repository\bin\Debug\EntityFramework.S
 E:\ARUN\Projects\Bots\OAChatBot\BBChatBot.Repository\obj\Debug\BBChatBot.Repository.csprojResolveAssemblyReference.cache
 E:\ARUN\Projects\Bots\OAChatBot\BBChatBot.Repository\obj\Debug\BBChatBot.Repository.dll
 E:\ARUN\Projects\Bots\OAChatBot\BBChatBot.Repository\obj\Debug\BBChatBot.Repository.pdb
+E:\ARUN\Projects\Bots\OAChatBot\repo\BBChatBot.Repository\bin\Debug\BBChatBot.Repository.dll.config
+E:\ARUN\Projects\Bots\OAChatBot\repo\BBChatBot.Repository\bin\Debug\BBChatBot.Repository.dll
+E:\ARUN\Projects\Bots\OAChatBot\repo\BBChatBot.Repository\bin\Debug\BBChatBot.Repository.pdb
+E:\ARUN\Projects\Bots\OAChatBot\repo\BBChatBot.Repository\bin\Debug\EntityFramework.dll
+E:\ARUN\Projects\Bots\OAChatBot\repo\BBChatBot.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\ARUN\Projects\Bots\OAChatBot\repo\BBChatBot.Repository\bin\Debug\EntityFramework.xml
+E:\ARUN\Projects\Bots\OAChatBot\repo\BBChatBot.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\ARUN\Projects\Bots\OAChatBot\repo\BBChatBot.Repository\obj\Debug\BBChatBot.Repository.dll
+E:\ARUN\Projects\Bots\OAChatBot\repo\BBChatBot.Repository\obj\Debug\BBChatBot.Repository.pdb
